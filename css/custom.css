@@ -1,0 +1,19 @@
+.slide-borders section {
+    border-top: 4px #eeeeee solid;
+    border-bottom: 4px #eeeeee solid;
+}
+
+@media screen and (max-width: 600px) {
+    .reveal .slides {
+        font-size: 50px;
+    }
+    .reveal pre code {
+        max-height: 2000px;
+    }
+}
+
+@media screen and (max-height: 650px) {
+    .reveal .slides section {
+        margin-top: -200px;
+    }
+}
